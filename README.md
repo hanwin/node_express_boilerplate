@@ -1,5 +1,4 @@
-# node_express_boilerplate
-Node Express boilerplate with pug template engine
+# Node Express boilerplate with pug template engine
 
 
 how to use:  
