@@ -1,0 +1,15 @@
+[Unit]
+Description=Providing node express server
+Documentation=https://example.com
+After=network.target
+
+[Service]
+;Environment=PORT=8000
+Type=simple
+User=hasse
+WorkingDirectory=/home/user/myapp
+ExecStart=/usr/local/bin/npm start
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
