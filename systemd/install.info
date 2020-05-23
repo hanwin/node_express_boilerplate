@@ -1,2 +1,3 @@
 sudo cp node_express.service /lib/systemd/system/node_express.service
-sudo systemctl restart node_express.service
+sudo systemctl enable node_express
+sudo systemctl start node_express.service
