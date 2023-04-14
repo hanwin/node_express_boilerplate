@@ -3,6 +3,7 @@
 
 how to use:  
 git clone git@github.com:hanwin/node_express_boilerplate.git  
+cd node_express_boilerplate
 npm install  
 npm start  
 or  
